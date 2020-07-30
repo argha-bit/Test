@@ -12,5 +12,6 @@ public static void main(String[] args)
 	System.out.println(map.descendingMap());
 	System.out.println(map.headMap(102,true));
 	System.out.println(map.tailMap(103,true));
+System.out.println(map.tailMap(103,false));
 }
 }
